@@ -22,4 +22,8 @@ public class GameService {
     public List<GameRankEntity> getTopLikedGames(Integer topCount) {
         return gameRepository.getTopLikedGames(topCount);
     }
+    public List<GameEntity> getAllGames() {
+        return gameRepository.getAllGames();
+    }
+
 }

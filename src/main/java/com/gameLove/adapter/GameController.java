@@ -1,11 +1,8 @@
 package com.gameLove.adapter;
 
 import com.gameLove.application.GameService;
-import com.gameLove.application.UserService;
 import com.gameLove.domain.entity.GameEntity;
 import com.gameLove.domain.entity.GameRankEntity;
-import com.gameLove.domain.entity.UserEntity;
-import com.gameLove.domain.repository.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +17,14 @@ public class GameController {
     @Autowired
     public GameController(GameService gameService) {
         this.gameService = gameService;
+    }
+
+    /**
+     * get all games
+     */
+    @GetMapping("")
+    public List<GameEntity> getAllGames(){
+        return gameService.getAllGames();
     }
 
     /**

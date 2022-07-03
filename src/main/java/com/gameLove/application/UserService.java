@@ -24,8 +24,8 @@ public class UserService {
         this.validateService = validateService;
     }
 
-    public List<UserEntity> getUser(){
-        return userRepository.getUser();
+    public List<UserEntity> getAllUsers(){
+        return userRepository.getAllUsers();
     }
 
     /**
