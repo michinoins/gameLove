@@ -21,11 +21,11 @@ public class UserController{
     }
 
     /**
-     * get users
+     * get all users
      */
     @GetMapping("")
-    public List<UserEntity> getUser(){
-        return userService.getUser();
+    public List<UserEntity> getAllUsers(){
+        return userService.getAllUsers();
     }
 
 

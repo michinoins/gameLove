@@ -1,7 +1,6 @@
 package com.gameLove.domain.Error;
 
 import com.gameLove.domain.entity.ErrorResponse;
-import lombok.Data;
 import org.springframework.http.HttpStatus;
 
 
