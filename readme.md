@@ -3,7 +3,6 @@
 ## Overview
 This is Game Love Service. You can get user,game information and user's favorite games.
 
-[https://raw.github.com/wiki/michinoins/gameLove/images/Untitled.gif]
 ## Features
 Api Path and Description
 
